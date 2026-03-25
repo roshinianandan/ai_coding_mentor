@@ -85,7 +85,6 @@ export default function AnalysisPanel({ result, submitting }) {
   };
 
   if (!result) {
-    const concept = null;
     return renderShell(lang, submitting, null, null, null, null, null, null, null, null, null, null, null);
   }
 
